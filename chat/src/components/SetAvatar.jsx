@@ -27,7 +27,7 @@ export default function SetAvatar() {
     if (!localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY))
       navigate("/login");}
       fetchData();
-  }, []);
+  }, [navigate]);
 
   const setProfilePicture = async () => {
     if (selectedAvatar === undefined) {
@@ -68,7 +68,7 @@ export default function SetAvatar() {
     };
   
     fetchData();
-  }, []);
+  }, [api]);
 
   
   return (
