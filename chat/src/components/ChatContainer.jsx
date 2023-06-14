@@ -184,7 +184,7 @@ const Container = styled.div`
         background-color: #4f04ff21;
       }
     }
-    .recieved {
+    .received {
       justify-content: flex-start;
       .content {
         background-color: #9900ff20;
@@ -192,4 +192,5 @@ const Container = styled.div`
     }
   }
 `;
+
 export default ChatContainer
