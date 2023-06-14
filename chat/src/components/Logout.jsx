@@ -12,7 +12,7 @@ const Logout = () => {
     navigate('/login')
   }
 
-  return <Button><BiPowerOff/></Button>;
+  return <Button onClick={handleClick}><BiPowerOff/></Button>;
 };
 const Button = styled.button`
   display: flex;
